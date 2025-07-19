@@ -1,0 +1,6 @@
+## requirements.txt
+
+txt
+tkinter
+smtplib
+email

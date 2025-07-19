@@ -1,0 +1,65 @@
+This app adds events to your Google Calendar based on a CSV file.
+
+How to Use:
+
+1. Prepare Your CSV File
+
+Use any text editor or Excel to create a file named: tasks.csv
+
+The file must be saved with UTF-16 encoding
+
+First line should be the headers:
+
+tasks, duration
+
+Each line after that should contain:
+
+A task name
+
+Duration in minutes (as a number)
+
+
+
+Example:
+
+tasks, duration
+python, 60
+web_dev, 60
+inter_study, 30
+walk, 15
+meeting, 35
+
+
+2. Install Dependencies
+## requirements.txt
+
+txt
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pandas
+
+
+
+
+
+3. What It Does:
+
+Starts scheduling from 20 minutes after you click Add Events
+
+Schedules each task in order
+
+Adds a 20-minute break between each task
+
+All tasks will appear in your Google Calendar automatically
+
+
+
+
+Note:
+
+Make sure you’re connected to the internet
+
+Your Google Calendar must be linked the first time you run the app
+
+Your credentials are saved securely in token.json after first login

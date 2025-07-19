@@ -1,0 +1,4 @@
+txt
+requests
+tkinter
+python-dotenv

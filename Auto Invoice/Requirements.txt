@@ -1,0 +1,9 @@
+
+## requirements.txt
+
+txt
+openpyxl
+fpdf
+smtplib
+email
+python-dotenv

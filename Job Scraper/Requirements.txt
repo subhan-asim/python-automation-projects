@@ -1,0 +1,14 @@
+
+## requirements.txt
+
+txt
+undetected-chromedriver
+selenium
+json
+time
+
+
+## Notes
+
+* Wait time is provided to solve CAPTCHA manually.
+* Not fully headless due to protection bypass limits.
